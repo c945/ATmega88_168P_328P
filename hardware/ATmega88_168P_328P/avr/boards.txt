@@ -10,6 +10,7 @@ atmega88.bootloader.unlock_bits=0x3F
 atmega88.bootloader.lock_bits=0x0F
 atmega88.build.mcu=atmega88
 atmega88.build.core=arduino:arduino
+atmega88.build.board=AVR_ATMEGA88
 
 atmega88.menu.clock.Xtal8MHz=8MHz/X'tal
 atmega88.menu.clock.Xtal8MHz.upload.speed=57600
@@ -48,6 +49,7 @@ atmega168p.bootloader.unlock_bits=0x3F
 atmega168p.bootloader.lock_bits=0x0F
 atmega168p.build.mcu=atmega168p
 atmega168p.build.core=arduino:arduino
+atmega168p.build.board=AVR_ATMEGA168P
 
 atmega168p.menu.clock.Xtal8MHz=8MHz/X'tal
 atmega168p.menu.clock.Xtal8MHz.upload.speed=57600
@@ -86,6 +88,7 @@ atmega328p.bootloader.unlock_bits=0x3F
 atmega328p.bootloader.lock_bits=0x0F
 atmega328p.build.mcu=atmega328p
 atmega328p.build.core=arduino:arduino
+atmega328p.build.board=AVR_ATMEGA328P
 
 atmega328p.menu.clock.Xtal8MHz=8MHz/X'tal
 atmega328p.menu.clock.Xtal8MHz.upload.speed=57600
